@@ -16,11 +16,12 @@ namespace BasicCSharp
 			double length = 11;
 			double area1 = width * length;
 
-			//Statements can be broken down into expressions
-			//which are a combination of operators & operands
-			//This is an expression: 
-
-			double area2 = width * length;
+			//Expressions are a block of code like an if statement
+			//or a switch statement:
+			if (area1 > 50){
+				Console.WriteLine("Your area is big.");
+				Console.Write("Wooh!");
+			}
 
 			//Operands are the 'subject' of the statement like variables, methods, and classes.
 
